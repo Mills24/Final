@@ -10,6 +10,7 @@ export class ProductListComponent{
     imageWidth: number = 50;
     imageMargin: number = 5;
     showImage: boolean = true;
+    //listFilter: string = "Filter Me";
     products: IProduct[] = [
         {
           "productId": 1,
@@ -62,8 +63,32 @@ export class ProductListComponent{
           "imageUrl": "assets/images/xbox-controller.png"
         }
       ];
+      filteredProducts: IProduct[];
+      constructor(){
+        this.filteredProducts = this.products;
+      }
       
       toggleImage(): void{
           this.showImage = !this.showImage;
       }
+
+      _listFilter: string = "Filter Me";
+      get listFilter(): string{
+        return this._listFilter;
+      }
+
+      set listFilter(value: string){
+        this._listFilter = value;
+        this.filteredProducts = value ? this.performFilter(value) : this.products;
+      }
+      
+      performFilter(filterBy: string): IProduct[]{
+        filterBy = filterBy.toLowerCase();
+        return this.products.filter(( product => product.productName.toLowerCase().indexOf(filterBy) !== -1));
+      }
+
+      gotClicked(message : string) : void{
+        this.pageTitle = message;
+      }
+
 }

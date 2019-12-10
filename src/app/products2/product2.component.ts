@@ -32,16 +32,6 @@ export class Product2ListComponent{
         return this._listFilter;
       }
 
-      set listFilter(value: string){
-        this._listFilter = value;
-        this.filteredProducts = value ? this.performFilter(value) : this.products;
-      }
-      
-      performFilter(filterBy: string): IProduct[]{
-        filterBy = filterBy.toLowerCase();
-        return this.products.filter(( product => product.productName.toLowerCase().indexOf(filterBy) !== -1));
-      }
-
       gotClicked(message : string) : void{
         this.pageTitle = message;
       }

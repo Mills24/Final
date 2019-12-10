@@ -1,4 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
+
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
 div.card-header {
@@ -11,4 +11,16 @@ div.card {
 
 .table {
   margin-top: 10px
+}
+.overd{
+  font-size: medium;
+}
+.over{
+  width: 50%;
+}
+.title{
+  font-size: x-large;
+}
+#head{
+  font-size: x-large;
 }

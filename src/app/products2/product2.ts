@@ -1,6 +1,6 @@
 export interface IProduct{
     original_name: string;
-    release_date: string;
+    first_air_date: string;
     overview: string;
     imageUrl: string;
 }

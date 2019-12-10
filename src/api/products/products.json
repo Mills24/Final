@@ -1,52 +1,124 @@
 [
   {
-    "productId": 1,
-    "productName": "Leaf Rake",
-    "productCode": "GDN-0011",
-    "releaseDate": "March 19, 2019",
-    "description": "Leaf rake with 48-inch wooden handle.",
-    "price": 19.95,
-    "starRating": 3.2,
-    "imageUrl": "assets/images/leaf_rake.png"
+  "popularity": 326.047,
+  "vote_count": 849,
+  "video": false,
+  "poster_path": "/assets/images/frozen.jpg",
+  "id": 330457,
+  "adult": false,
+  "backdrop_path": "/xJWPZIYOEFIjZpBL7SVBGnzRYXp.jpg",
+  "original_language": "en",
+  "original_title": "Frozen II",
+  "genre_ids": [
+  16,
+  10402,
+  10751
+  ],
+  "title": "Frozen II",
+  "vote_average": 7.1,
+  "overview": "Elsa, Anna, Kristoff and Olaf head far into the forest to learn the truth about an ancient mystery of their kingdom.",
+  "release_date": "2019-11-20"
   },
+
   {
-    "productId": 2,
-    "productName": "Garden Cart",
-    "productCode": "GDN-0023",
-    "releaseDate": "March 18, 2019",
-    "description": "15 gallon capacity rolling garden cart",
-    "price": 32.99,
-    "starRating": 4.2,
-    "imageUrl": "assets/images/garden_cart.png"
+  "popularity": 288.09,
+  "vote_count": 116,
+  "video": false,
+  "poster_path": "/assets/images/jumanji.jpg",
+  "id": 512200,
+  "adult": false,
+  "backdrop_path": "/zTxHf9iIOCqRbxvl8W5QYKrsMLq.jpg",
+  "original_language": "en",
+  "original_title": "Jumanji: The Next Level",
+  "genre_ids": [
+  28,
+  12,
+  35,
+  14
+  ],
+  "title": "Jumanji: The Next Level",
+  "vote_average": 7.1,
+  "overview": "Spencer returns to the world of Jumanji, prompting his friends, his grandfather and his grandfather’s friend to enter a different and more dangerous version to save him.",
+  "release_date": "2019-12-04"
   },
+
   {
-    "productId": 5,
-    "productName": "Hammer",
-    "productCode": "TBX-0048",
-    "releaseDate": "May 21, 2019",
-    "description": "Curved claw steel hammer",
-    "price": 8.9,
-    "starRating": 4.8,
-    "imageUrl": "assets/images/hammer.png"
+  "popularity": 208.981,
+  "vote_count": 1182,
+  "video": false,
+  "poster_path": "/assets/images/irish.jpg",
+  "id": 398978,
+  "adult": false,
+  "backdrop_path": "/ww5aGS5H2tUtckxFFNOJE2790S7.jpg",
+  "original_language": "en",
+  "original_title": "The Irishman",
+  "genre_ids": [
+  80,
+  18,
+  36
+  ],
+  "title": "The Irishman",
+  "vote_average": 8,
+  "overview": "Pennsylvania, 1956. Frank Sheeran, a war veteran of Irish origin who works as a truck driver, accidentally meets mobster Russell Bufalino. Once Frank becomes his trusted man, Bufalino sends him to Chicago with the task of helping Jimmy Hoffa, a powerful union leader related to organized crime, with whom Frank will maintain a close friendship for nearly twenty years.",
+  "release_date": "2019-11-01"
   },
+
   {
-    "productId": 8,
-    "productName": "Saw",
-    "productCode": "TBX-0022",
-    "releaseDate": "May 15, 2019",
-    "description": "15-inch steel blade hand saw",
-    "price": 11.55,
-    "starRating": 3.7,
-    "imageUrl": "assets/images/saw.png"
+  "popularity": 265.028,
+  "vote_count": 1115,
+  "video": false,
+  "poster_path": "/assets/images/ad_astra.jpg",
+  "id": 419704,
+  "adult": false,
+  "backdrop_path": "/5BwqwxMEjeFtdknRV792Svo0K1v.jpg",
+  "original_language": "en",
+  "original_title": "Ad Astra",
+  "genre_ids": [
+  878
+  ],
+  "title": "Ad Astra",
+  "vote_average": 6.1,
+  "overview": "An astronaut travels to the outer edges of the solar system to find his father and unravel a mystery that threatens the survival of Earth. In doing so, he uncovers secrets which challenge the nature of human existence and our place in the cosmos.",
+  "release_date": "2019-09-17"
   },
+
   {
-    "productId": 10,
-    "productName": "Video Game Controller",
-    "productCode": "GMG-0042",
-    "releaseDate": "October 15, 2018",
-    "description": "Standard two-button video game controller",
-    "price": 35.95,
-    "starRating": 4.6,
-    "imageUrl": "assets/images/xbox-controller.png"
-  }
-]
+  "popularity": 161.016,
+  "vote_count": 718,
+  "video": false,
+  "poster_path": "/assets/images/rambo.jpg",
+  "id": 522938,
+  "adult": false,
+  "backdrop_path": "/spYx9XQFODuqEVoPpvaJI1ksAVt.jpg",
+  "original_language": "en",
+  "original_title": "Rambo: Last Blood",
+  "genre_ids": [
+  28,
+  18,
+  53
+  ],
+  "title": "Rambo: Last Blood",
+  "vote_average": 5.9,
+  "overview": "After fighting his demons for decades, John Rambo now lives in peace on his family ranch in Arizona, but his rest is interrupted when Gabriela, the granddaughter of his housekeeper María, disappears after crossing the border into Mexico to meet her biological father. Rambo, who has become a true father figure for Gabriela over the years, undertakes a desperate and dangerous journey to find her.",
+  "release_date": "2019-09-19"
+  },
+  
+  {
+  "popularity": 127.297,
+  "vote_count": 787,
+  "video": false,
+  "poster_path": "/assets/images/term.jpg",
+  "id": 290859,
+  "adult": false,
+  "backdrop_path": "/riTANvQ8GKmQbgtC1ps3OfkU43A.jpg",
+  "original_language": "en",
+  "original_title": "Terminator: Dark Fate",
+  "genre_ids": [
+  28,
+  878
+  ],
+  "title": "Terminator: Dark Fate",
+  "vote_average": 6.2,
+  "overview": "Decades after Sarah Connor prevented Judgment Day, a lethal new Terminator is sent to eliminate the future leader of the resistance. In a fight to save mankind, battle-hardened Sarah Connor teams up with an unexpected ally and an enhanced super soldier to stop the deadliest Terminator yet.",
+  "release_date": "2019-10-23"
+  }]

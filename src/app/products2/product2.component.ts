@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { IProduct } from './product';
-import { ProductService } from './product.services';
+import { IProduct } from './product2';
+import { ProductService } from './product2.services';
 
 @Component ({
     selector: 'pm-products',
-    templateUrl: './product.component.html'
+    templateUrl: './product2.component.html'
 })
-export class ProductListComponent{
-    pageTitle: string = "Top Movies in Theaters";
+export class Product2ListComponent{
+    pageTitle: string = "Top Airing TV Shows";
     imageWidth: number = 100;
     imageMargin: number = 5;
     showImage: boolean = true;

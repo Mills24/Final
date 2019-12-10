@@ -8,9 +8,9 @@
         <table class="table">
             <thead class="thead-dark" id="head">
                 <tr>
-                    <th>Movie Poster</th>
+                    <th>TV Poster</th>
                     <th>Title</th>
-                    <th>Release Date</th>
+                    <th>First Aired</th>
                     <th class="over">Overview</th>
                 </tr>
             </thead>
@@ -21,11 +21,11 @@
                         [src] = "product.poster_path"
                         [style.width.px] = "imageWidth"
                         [style.margin.px] = "imageMargin"
-                        [title] = "product.original_title"
+                        [title] = "product.original_name"
 
                     ></td>
-                    <td class="title">{{ product.original_title }}</td>
-                    <td>{{ product.release_date }}</td>
+                    <td class="title">{{ product.original_name }}</td>
+                    <td>{{ product.first_air_date }}</td>
                     <td class="overd">{{ product.overview }}</td>
                 </tr>
             </tbody>
